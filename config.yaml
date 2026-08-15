@@ -1,0 +1,78 @@
+mixed-port: 7890
+mode: rule
+#allow-lan: true
+
+external-controller: 0.0.0.0:7788
+secret: "510510510"
+external-ui: /etc/mihomo/ui
+
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  #dns-hijack:
+  #  - any:53
+  #  - tcp://any:53
+
+dns:
+  enable: true
+  nameserver:
+    - 223.6.6.6
+    - 223.5.5.5
+  #listen: 0.0.0.0:1053
+  #enhanced-mode: fake-ip
+  #fake-ip-range: 198.18.0.1/16
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "BAN-US"
+      - "DMIT-US"
+
+rule-providers:
+  local:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/local.yaml"
+    path: ./providers/local.yaml
+    interval: 3600
+    proxy: PROXY
+
+  develop:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/develop.yaml"
+    path: ./providers/develop.yaml
+    interval: 3600
+    proxy: PROXY
+
+  other:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/other.yaml"
+    path: ./providers/other.yaml
+    interval: 3600
+    proxy: PROXY
+
+rules:
+  #- DST-PORT,53,DIRECT
+  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - RULE-SET,local,DIRECT
+  - RULE-SET,develop,PROXY
+  - RULE-SET,other,PROXY
+
+  #- GEOIP,CN,DIRECT
+  - MATCH,DIRECT
+  #- MATCH,PROXY
+
