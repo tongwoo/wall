@@ -1,0 +1,192 @@
+payload:
+  # Google
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-SUFFIX,googlesource.com
+  - DOMAIN-SUFFIX,gvt1.com
+
+  # Amazon / AWS
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,awsstatic.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,amazontrust.com
+
+  # GitHub / GitHub Actions
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,github.dev
+  - DOMAIN-SUFFIX,githubstatus.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,ghcr.io
+
+  # Docker / Docker Hub
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,dockerstatic.com
+  - DOMAIN-SUFFIX,dockerusercontent.com
+  - DOMAIN-SUFFIX,dhi.io
+
+  # Kubernetes
+  - DOMAIN-SUFFIX,kubernetes.io
+  - DOMAIN-SUFFIX,k8s.io
+
+  # Figma
+  - DOMAIN-SUFFIX,figma.com
+  - DOMAIN-SUFFIX,figma.net
+  - DOMAIN-SUFFIX,figmausercontent.com
+
+  # OpenAI / ChatGPT
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,auth.openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.site
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com
+
+  # JetBrains
+  - DOMAIN-SUFFIX,jetbrains.com
+  - DOMAIN-SUFFIX,jetbrains.ai
+  - DOMAIN-SUFFIX,intellij.net
+
+  # Microsoft / VS Code
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,visualstudioassets.com
+  - DOMAIN-SUFFIX,vscode.dev
+  - DOMAIN-SUFFIX,vsassets.io
+  - DOMAIN-SUFFIX,vscode-cdn.net
+  - DOMAIN-SUFFIX,vscode-unpkg.net
+  - DOMAIN-SUFFIX,trafficmanager.net
+  - DOMAIN-SUFFIX,exp-tas.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoftonline.com
+
+  # GitLab
+  - DOMAIN-SUFFIX,gitlab.com
+  - DOMAIN-SUFFIX,gitlab-static.net
+
+  # Node.js / npm
+  - DOMAIN-SUFFIX,nodejs.org
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,npmjs.com
+
+  # Maven Central / Apache Maven
+  - DOMAIN-SUFFIX,maven.org
+  - DOMAIN-SUFFIX,maven.apache.org
+  - DOMAIN-SUFFIX,sonatype.com
+  - DOMAIN-SUFFIX,sonatype.org
+
+  # Gradle
+  - DOMAIN-SUFFIX,gradle.org
+  - DOMAIN-SUFFIX,gradle.com
+
+  # Python / PyPI
+  - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
+
+  # Go
+  - DOMAIN-SUFFIX,go.dev
+  - DOMAIN-SUFFIX,golang.org
+
+  # Rust / Cargo
+  - DOMAIN-SUFFIX,rust-lang.org
+  - DOMAIN-SUFFIX,rustup.rs
+  - DOMAIN-SUFFIX,crates.io
+
+  # Flutter / Dart
+  - DOMAIN-SUFFIX,flutter.dev
+  - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,pub.dev
+
+  # Android / Android Studio / Android SDK
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,android.dev
+  - DOMAIN-SUFFIX,androidstudio.com
+
+  # Google Play / Firebase
+  - DOMAIN-SUFFIX,googleplay.com
+  - DOMAIN-SUFFIX,firebase.google.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,firebaseapp.com
+  - DOMAIN-SUFFIX,appspot.com
+
+  # Apple Developer / Xcode / Swift
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,developer.apple.com
+  - DOMAIN-SUFFIX,developer.apple.com.cn
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,swift.org
+  - DOMAIN-SUFFIX,swiftpackageindex.com
+
+  # CocoaPods
+  - DOMAIN-SUFFIX,cocoapods.org
+
+  # Homebrew
+  - DOMAIN-SUFFIX,brew.sh
+  - DOMAIN-SUFFIX,homebrew.com
+
+  # Ubuntu
+  - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,launchpad.net
+
+  # Debian
+  - DOMAIN-SUFFIX,debian.org
+
+  # Alpine Linux
+  - DOMAIN-SUFFIX,alpinelinux.org
+
+  # Arch Linux
+  - DOMAIN-SUFFIX,archlinux.org
+
+  # CentOS / Fedora / Red Hat
+  - DOMAIN-SUFFIX,centos.org
+  - DOMAIN-SUFFIX,fedoraproject.org
+  - DOMAIN-SUFFIX,redhat.com
+  - DOMAIN-SUFFIX,quay.io
+
+  # Stack Overflow / Stack Exchange
+  - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,stackexchange.com
+  - DOMAIN-SUFFIX,sstatic.net
+
+  # MDN
+  - DOMAIN-SUFFIX,mozilla.org
+  - DOMAIN-SUFFIX,mozilla.net
+  - DOMAIN-SUFFIX,mdn.dev
+
+  # Cloudflare 开发者服务
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,workers.dev
+  - DOMAIN-SUFFIX,pages.dev
+
+  # Vercel
+  - DOMAIN-SUFFIX,vercel.com
+  - DOMAIN-SUFFIX,vercel.app
+  - DOMAIN-SUFFIX,vercel-dns.com
+  - DOMAIN-SUFFIX,vercel-storage.com
+
+  # Netlify
+  - DOMAIN-SUFFIX,netlify.com
+  - DOMAIN-SUFFIX,netlify.app
+  - DOMAIN-SUFFIX,netlifyusercontent.com
+
+  # Supabase
+  - DOMAIN-SUFFIX,supabase.com
+  - DOMAIN-SUFFIX,supabase.co
+
+  # Hugging Face
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.co
