@@ -25,6 +25,11 @@ payload:
   - DOMAIN-SUFFIX,github.dev
   - DOMAIN-SUFFIX,githubstatus.com
   - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,individual.githubcopilot.com
+  - DOMAIN-SUFFIX,business.githubcopilot.com
+  - DOMAIN-SUFFIX,enterprise.githubcopilot.com
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,ghe.com
   - DOMAIN-SUFFIX,ghcr.io
 
   # Docker / Docker Hub
@@ -55,6 +60,13 @@ payload:
   - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,workos.com
   - DOMAIN-SUFFIX,workoscdn.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,sendgrid.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,datadoghq.com
 
   # JetBrains
   - DOMAIN-SUFFIX,jetbrains.com
@@ -72,6 +84,9 @@ payload:
   - DOMAIN-SUFFIX,exp-tas.com
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,azurefd.net
 
   # GitLab
   - DOMAIN-SUFFIX,gitlab.com
@@ -81,12 +96,27 @@ payload:
   - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,npmjs.org
   - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,yarnpkg.com
+  - DOMAIN-SUFFIX,pnpm.io
+  - DOMAIN-SUFFIX,nodesource.com
+  - DOMAIN-SUFFIX,bun.sh
+  - DOMAIN-SUFFIX,deno.land
+  - DOMAIN-SUFFIX,prisma.sh
+
+  # .NET / NuGet
+  - DOMAIN-SUFFIX,nuget.org
+  - DOMAIN-SUFFIX,dot.net
 
   # Maven Central / Apache Maven
   - DOMAIN-SUFFIX,maven.org
   - DOMAIN-SUFFIX,maven.apache.org
   - DOMAIN-SUFFIX,sonatype.com
   - DOMAIN-SUFFIX,sonatype.org
+  - DOMAIN-SUFFIX,java.net
+  - DOMAIN-SUFFIX,adoptium.net
+  - DOMAIN-SUFFIX,spring.io
+  - DOMAIN-SUFFIX,eclipse.org
+  - DOMAIN-SUFFIX,oracle.com
 
   # Gradle
   - DOMAIN-SUFFIX,gradle.org
@@ -96,6 +126,19 @@ payload:
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,pypa.io
+  - DOMAIN-SUFFIX,anaconda.org
+  - DOMAIN-SUFFIX,anaconda.com
+  - DOMAIN-SUFFIX,pytorch.org
+
+  # Ruby / RubyGems
+  - DOMAIN-SUFFIX,ruby-lang.org
+  - DOMAIN-SUFFIX,rubygems.org
+  - DOMAIN-SUFFIX,rvm.io
+
+  # PHP / Composer
+  - DOMAIN-SUFFIX,packagist.org
+  - DOMAIN-SUFFIX,getcomposer.org
 
   # Go
   - DOMAIN-SUFFIX,go.dev
@@ -141,6 +184,7 @@ payload:
   # Ubuntu
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,launchpad.net
+  - DOMAIN-SUFFIX,snapcraft.io
 
   # Debian
   - DOMAIN-SUFFIX,debian.org
@@ -190,3 +234,11 @@ payload:
   # Hugging Face
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,hf.co
+
+  # Infrastructure / Schema / Testing
+  - DOMAIN-SUFFIX,hashicorp.com
+  - DOMAIN-SUFFIX,terraform.io
+  - DOMAIN-SUFFIX,helm.sh
+  - DOMAIN-SUFFIX,json-schema.org
+  - DOMAIN-SUFFIX,schemastore.org
+  - DOMAIN-SUFFIX,playwright.dev
