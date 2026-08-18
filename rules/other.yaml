@@ -3,3 +3,4 @@ payload:
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,wikipedia.org
