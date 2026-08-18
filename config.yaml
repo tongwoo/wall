@@ -61,7 +61,6 @@ rule-providers:
     proxy: PROXY
 
 rules:
-  #- DST-PORT,53,DIRECT
   - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
@@ -72,7 +71,7 @@ rules:
   - RULE-SET,develop,PROXY
   - RULE-SET,other,PROXY
 
-  #- GEOIP,CN,DIRECT
-  - MATCH,DIRECT
-  #- MATCH,PROXY
+  - GEOIP,CN,DIRECT
+  #- MATCH,DIRECT
+  - MATCH,PROXY
 
