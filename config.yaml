@@ -51,6 +51,15 @@ rule-providers:
     interval: 3600
     proxy: PROXY
 
+  ai:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/ai.yaml"
+    path: ./providers/ai.yaml
+    interval: 3600
+    proxy: PROXY
+
   other:
     type: http
     behavior: classical
@@ -68,10 +77,10 @@ rules:
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - RULE-SET,local,DIRECT
+  - RULE-SET,ai,PROXY
   - RULE-SET,develop,PROXY
   - RULE-SET,other,PROXY
 
   - GEOIP,CN,DIRECT
   #- MATCH,DIRECT
   - MATCH,PROXY
-
