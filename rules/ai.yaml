@@ -18,6 +18,17 @@ payload:
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,sendgrid.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,datadoghq.com
   - DOMAIN-SUFFIX,host.livekit.cloud
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,turn.livekit.cloud
@@ -99,6 +110,9 @@ payload:
   - DOMAIN-SUFFIX,hf.space
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,hf.co
+
+  # PyTorch
+  - DOMAIN-SUFFIX,pytorch.org
 
   # Cohere
   - DOMAIN-SUFFIX,cohere.com

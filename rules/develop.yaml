@@ -24,10 +24,6 @@ payload:
   - DOMAIN-SUFFIX,github.io
   - DOMAIN-SUFFIX,github.dev
   - DOMAIN-SUFFIX,githubstatus.com
-  - DOMAIN-SUFFIX,githubcopilot.com
-  - DOMAIN-SUFFIX,individual.githubcopilot.com
-  - DOMAIN-SUFFIX,business.githubcopilot.com
-  - DOMAIN-SUFFIX,enterprise.githubcopilot.com
   - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,ghe.com
   - DOMAIN-SUFFIX,ghcr.io
@@ -48,29 +44,8 @@ payload:
   - DOMAIN-SUFFIX,figma.net
   - DOMAIN-SUFFIX,figmausercontent.com
 
-  # OpenAI / ChatGPT
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,auth.openai.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,chatgpt.site
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,openaimerge.com
-  - DOMAIN-SUFFIX,featureassets.org
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,workos.com
-  - DOMAIN-SUFFIX,workoscdn.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaistatsig.com
-  - DOMAIN-SUFFIX,statsigapi.net
-  - DOMAIN-SUFFIX,sendgrid.net
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,datadoghq.com
-
   # JetBrains
   - DOMAIN-SUFFIX,jetbrains.com
-  - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,intellij.net
 
   # Microsoft / VS Code
@@ -129,7 +104,6 @@ payload:
   - DOMAIN-SUFFIX,pypa.io
   - DOMAIN-SUFFIX,anaconda.org
   - DOMAIN-SUFFIX,anaconda.com
-  - DOMAIN-SUFFIX,pytorch.org
 
   # Ruby / RubyGems
   - DOMAIN-SUFFIX,ruby-lang.org
@@ -230,10 +204,6 @@ payload:
   # Supabase
   - DOMAIN-SUFFIX,supabase.com
   - DOMAIN-SUFFIX,supabase.co
-
-  # Hugging Face
-  - DOMAIN-SUFFIX,huggingface.co
-  - DOMAIN-SUFFIX,hf.co
 
   # Infrastructure / Schema / Testing
   - DOMAIN-SUFFIX,hashicorp.com
