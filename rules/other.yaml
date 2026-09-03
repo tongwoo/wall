@@ -5,3 +5,4 @@ payload:
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,microgrid.id
+  - DOMAIN-SUFFIX,gravatar.com
