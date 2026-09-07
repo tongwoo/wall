@@ -1,0 +1,234 @@
+rules:
+  # Major cloud platforms
+  # Amazon AWS / SageMaker / Ground Truth / Kinesis / Redshift
+  - DOMAIN-SUFFIX,aws.amazon.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,awsstatic.com
+  - DOMAIN-SUFFIX,cloudfront.net
+
+  # Google Cloud Platform / Dataflow / Colab / Kaggle
+  - DOMAIN-SUFFIX,cloud.google.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN,colab.research.google.com
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,kaggleusercontent.com
+
+  # Microsoft Azure / Azure Stream Analytics
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,azure.microsoft.com
+  - DOMAIN-SUFFIX,azurewebsites.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,microsoftonline.com
+
+  # IBM Watson
+  - DOMAIN-SUFFIX,ibm.com
+  - DOMAIN-SUFFIX,ibmcloud.com
+
+  # Apple Core ML / Turi Create
+  - DOMAIN-SUFFIX,developer.apple.com
+
+  # NVIDIA TensorRT
+  - DOMAIN-SUFFIX,developer.nvidia.com
+  - DOMAIN-SUFFIX,nvidia.com
+
+  # Data exploration, storage, and management
+  - DOMAIN-SUFFIX,algorithmia.com
+  - DOMAIN-SUFFIX,alluxio.io
+  - DOMAIN-SUFFIX,amundsen.io
+  - DOMAIN-SUFFIX,cohesity.com
+  - DOMAIN-SUFFIX,aparavi.com
+  - DOMAIN-SUFFIX,atscale.com
+  - DOMAIN-SUFFIX,cazena.com
+  - DOMAIN-SUFFIX,cloudera.com
+  - DOMAIN-SUFFIX,stratsolutions.com
+  - DOMAIN-SUFFIX,databricks.com
+  - DOMAIN-SUFFIX,datagrok.ai
+  - DOMAIN-SUFFIX,dataiku.com
+  - DOMAIN-SUFFIX,delta.io
+  - DOMAIN-SUFFIX,datera.io
+  - DOMAIN-SUFFIX,dremio.com
+  - DOMAIN-SUFFIX,elastifile.com
+  - DOMAIN-SUFFIX,erwin.com
+  - DOMAIN-SUFFIX,excelero.com
+  - DOMAIN-SUFFIX,flur.ee
+  - DOMAIN-SUFFIX,geminidata.com
+  - DOMAIN-SUFFIX,hammerspace.com
+  - DOMAIN-SUFFIX,hycu.com
+  - DOMAIN-SUFFIX,imply.io
+  - DOMAIN-SUFFIX,komprise.com
+  - DOMAIN-SUFFIX,kyvosinsights.com
+  - DOMAIN-SUFFIX,mlreef.com
+  - DOMAIN-SUFFIX,milvus.io
+  - DOMAIN-SUFFIX,zilliz.com
+  - DOMAIN-SUFFIX,octopai.com
+  - DOMAIN-SUFFIX,openml.org
+  - DOMAIN-SUFFIX,prestodb.io
+  - DOMAIN-SUFFIX,qri.io
+  - DOMAIN-SUFFIX,rubrik.com
+  - DOMAIN-SUFFIX,tamr.com
+  - DOMAIN-SUFFIX,waterlinedata.com
+  - DOMAIN-SUFFIX,vearch.github.io
+  - DOMAIN-SUFFIX,vexata.com
+  - DOMAIN-SUFFIX,yellowbrick.com
+
+  # Data labeling
+  - DOMAIN-SUFFIX,4smartmachines.com
+  - DOMAIN-SUFFIX,appen.com
+  - DOMAIN-SUFFIX,dataturks.com
+  - DOMAIN-SUFFIX,defined.ai
+  - DOMAIN-SUFFIX,definedcrowd.com
+  - DOMAIN-SUFFIX,doccano.herokuapp.com
+  - DOMAIN-SUFFIX,f8-federal.com
+  - DOMAIN-SUFFIX,imerit.net
+  - DOMAIN-SUFFIX,labelbox.com
+  - DOMAIN-SUFFIX,prodi.gy
+  - DOMAIN-SUFFIX,playment.io
+  - DOMAIN-SUFFIX,scale.com
+  - DOMAIN-SUFFIX,segments.ai
+  - DOMAIN-SUFFIX,snorkel.org
+  - DOMAIN-SUFFIX,snorkel.ai
+  - DOMAIN-SUFFIX,supervisely.com
+  - DOMAIN-SUFFIX,supervise.ly
+
+  # Streaming and data pipelines
+  - DOMAIN-SUFFIX,confluent.io
+  - DOMAIN-SUFFIX,striim.com
+  - DOMAIN-SUFFIX,valohai.com
+
+  # Data version control and privacy
+  - DOMAIN-SUFFIX,dagshub.com
+  - DOMAIN-SUFFIX,dolthub.com
+  - DOMAIN-SUFFIX,dvc.org
+  - DOMAIN-SUFFIX,floydhub.com
+  - DOMAIN-SUFFIX,pachyderm.com
+  - DOMAIN-SUFFIX,amnesia.openaire.eu
+  - DOMAIN-SUFFIX,aircloak.com
+  - DOMAIN-SUFFIX,celantur.com
+  - DOMAIN-SUFFIX,mostly.ai
+  - DOMAIN-SUFFIX,tmlt.io
+
+  # Data quality, notebooks, processing, and visualization
+  - DOMAIN-SUFFIX,arize.com
+  - DOMAIN-SUFFIX,greatexpectations.io
+  - DOMAIN-SUFFIX,naveego.com
+  - DOMAIN-SUFFIX,whylabs.ai
+  - DOMAIN-SUFFIX,deepnote.com
+  - DOMAIN-SUFFIX,dominodatalab.com
+  - DOMAIN-SUFFIX,h2o.ai
+  - DOMAIN-SUFFIX,polyaxon.com
+  - DOMAIN-SUFFIX,wandb.ai
+  - DOMAIN-SUFFIX,alteryx.com
+  - DOMAIN-SUFFIX,ascend.io
+  - DOMAIN-SUFFIX,dask.org
+  - DOMAIN-SUFFIX,dotdata.com
+  - DOMAIN-SUFFIX,flyte.org
+  - DOMAIN-SUFFIX,gluent.com
+  - DOMAIN-SUFFIX,readthedocs.io
+  - DOMAIN-SUFFIX,iguazio.com
+  - DOMAIN-SUFFIX,incorta.com
+  - DOMAIN-SUFFIX,mlflow.org
+  - DOMAIN-SUFFIX,wordpress.com
+  - DOMAIN-SUFFIX,modin.readthedocs.io
+  - DOMAIN-SUFFIX,gudusoft.com
+  - DOMAIN-SUFFIX,starburst.io
+  - DOMAIN-SUFFIX,starburstdata.com
+  - DOMAIN-SUFFIX,vaex.io
+
+  # Feature engineering and feature stores
+  - DOMAIN-SUFFIX,feast.dev
+  - DOMAIN-SUFFIX,featuretools.com
+  - DOMAIN-SUFFIX,scribbledata.io
+  - DOMAIN-SUFFIX,tecton.ai
+  - DOMAIN-SUFFIX,tsfresh.com
+
+  # Training and experiment tracking
+  - DOMAIN-SUFFIX,dotscience.com
+  - DOMAIN-SUFFIX,horovod.ai
+  - DOMAIN-SUFFIX,uber.com
+  - DOMAIN-SUFFIX,metaflow.org
+  - DOMAIN-SUFFIX,paperspace.com
+  - DOMAIN-SUFFIX,perceptilabs.com
+  - DOMAIN-SUFFIX,anyscale.com
+  - DOMAIN-SUFFIX,allegro.ai
+  - DOMAIN-SUFFIX,clear.ml
+  - DOMAIN-SUFFIX,comet.com
+  - DOMAIN-SUFFIX,comet.ml
+  - DOMAIN-SUFFIX,datmo.com
+  - DOMAIN-SUFFIX,datarobot.com
+  - DOMAIN-SUFFIX,neptune.ai
+  - DOMAIN-SUFFIX,spell.ml
+
+  # Hyperparameter optimization and AutoML
+  - DOMAIN-SUFFIX,sigopt.com
+  - DOMAIN-SUFFIX,optuna.org
+  - DOMAIN-SUFFIX,ray.io
+  - DOMAIN-SUFFIX,determined.ai
+  - DOMAIN-SUFFIX,tazi.ai
+  - DOMAIN-SUFFIX,transmogrif.ai
+
+  # Model management, evaluation, and explainability
+  - DOMAIN-SUFFIX,dockship.io
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,modzy.com
+  - DOMAIN-SUFFIX,verta.ai
+  - DOMAIN-SUFFIX,mlperf.org
+  - DOMAIN-SUFFIX,dawn.cs.stanford.edu
+  - DOMAIN-SUFFIX,streamlit.io
+  - DOMAIN-SUFFIX,tensorflow.org
+  - DOMAIN-SUFFIX,fiddler.ai
+  - DOMAIN-SUFFIX,interpret.ml
+  - DOMAIN-SUFFIX,lucid.wisc.edu
+
+  # Deployment, serving, orchestration, and monitoring
+  - DOMAIN-SUFFIX,prefect.io
+  - DOMAIN-SUFFIX,datadoghq.com
+  - DOMAIN-SUFFIX,datatron.com
+  - DOMAIN-SUFFIX,losswise.com
+  - DOMAIN-SUFFIX,unraveldata.com
+  - DOMAIN-SUFFIX,aible.com
+  - DOMAIN-SUFFIX,clipper.ai
+  - DOMAIN-SUFFIX,cortex.dev
+  - DOMAIN-SUFFIX,fritz.ai
+  - DOMAIN-SUFFIX,kubeflow.org
+  - DOMAIN-SUFFIX,octoml.ai
+  - DOMAIN-SUFFIX,prediction.io
+  - DOMAIN-SUFFIX,sas.com
+  - DOMAIN-SUFFIX,seldon.io
+  - DOMAIN-SUFFIX,onnx.ai
+  - DOMAIN-SUFFIX,argoproj.github.io
+  - DOMAIN-SUFFIX,dataanon.github.io
+  - DOMAIN-SUFFIX,doccano.github.io
+  - DOMAIN-SUFFIX,plaidml.github.io
+
+  # Infrastructure providers
+  - DOMAIN-SUFFIX,kamatera.com
+  - DOMAIN-SUFFIX,linode.com
+  - DOMAIN-SUFFIX,akamai.com
+  - DOMAIN-SUFFIX,cloudways.com
+  - DOMAIN-SUFFIX,liquidweb.com
+  - DOMAIN-SUFFIX,digitalocean.com
+  - DOMAIN-SUFFIX,vultr.com
+
+  # Environment/package management
+  - DOMAIN-SUFFIX,conda.io
+  - DOMAIN-SUFFIX,anaconda.org
+  - DOMAIN-SUFFIX,anaconda.com
+
+  # Shared open-source foundations and repository-only projects
+  # Apache: Druid, Flink, Hudi, Kafka, Mahout, Parquet, Spark, Storm, TVM
+  - DOMAIN-SUFFIX,apache.org
+
+  # GitHub-only/project-hosted entries: AresDB, Angel, Argo, CleverHans,
+  # Data Anon, Gluon, Hyperopt, MMdnn, PlaidML, PySyft, SHAP, Talos,
+  # Turi Create, plus source/download assets used by many listed projects.
+  # Note: Clash cannot restrict this rule to an individual GitHub path.
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,githubassets.com
+
+  # Documentation/package hosting commonly required by listed Python projects
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
