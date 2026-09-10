@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,google.dev
   - DOMAIN-SUFFIX,googlesource.com
   - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,c.gle
 
   # Amazon / AWS
   - DOMAIN-SUFFIX,amazon.com
