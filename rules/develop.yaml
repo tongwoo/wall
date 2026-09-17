@@ -39,6 +39,9 @@ payload:
   # Kubernetes
   - DOMAIN-SUFFIX,kubernetes.io
   - DOMAIN-SUFFIX,k8s.io
+  - DOMAIN-SUFFIX,pkg.dev
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,googleapis.com
 
   # Figma
   - DOMAIN-SUFFIX,figma.com
