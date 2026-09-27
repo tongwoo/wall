@@ -12,18 +12,12 @@ tun:
   auto-route: true
   auto-redirect: true
   auto-detect-interface: true
-  #dns-hijack:
-  #  - any:53
-  #  - tcp://any:53
 
 dns:
   enable: true
   nameserver:
     - 223.6.6.6
     - 223.5.5.5
-  #listen: 0.0.0.0:1053
-  #enhanced-mode: fake-ip
-  #fake-ip-range: 198.18.0.1/16
 
 proxy-groups:
   - name: "PROXY"
@@ -32,12 +26,30 @@ proxy-groups:
       - "BAN-US"
       - "DMIT-US"
 
+proxies:
+  - name: "BAN-US"
+    type: http
+    server: BAN-US.com
+    port: 443
+    username: username
+    password: "password"
+    tls: true
+    skip-cert-verify: false
+  - name: "DMIT-US"
+    type: http
+    server: DMIT-US.com
+    port: 443
+    username: username
+    password: "password"
+    tls: true
+    skip-cert-verify: false
+
 rule-providers:
   local:
     type: http
     behavior: classical
     format: yaml
-    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/local.yaml"
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/mihomo/rules/local.yaml"
     path: ./providers/local.yaml
     interval: 3600
     proxy: PROXY
@@ -46,7 +58,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/develop.yaml"
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/mihomo/rules/develop.yaml"
     path: ./providers/develop.yaml
     interval: 3600
     proxy: PROXY
@@ -55,7 +67,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/ai.yaml"
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/mihomo/rules/ai.yaml"
     path: ./providers/ai.yaml
     interval: 3600
     proxy: PROXY
@@ -64,7 +76,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/ai-flow.yaml"
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/mihomo/rules/ai-flow.yaml"
     path: ./providers/ai-flow.yaml
     interval: 3600
     proxy: PROXY
@@ -73,7 +85,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: "https://raw.githubusercontent.com/tongwoo/wall/main/rules/other.yaml"
+    url: "https://raw.githubusercontent.com/tongwoo/wall/main/mihomo/rules/other.yaml"
     path: ./providers/other.yaml
     interval: 3600
     proxy: PROXY
@@ -94,12 +106,11 @@ rules:
   - RULE-SET,ai-flow,PROXY
   - RULE-SET,develop,PROXY
   - RULE-SET,other,PROXY
-  - DOMAIN-SUFFIX,local,DIRECT
+  - RULE-SET,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
-  - RULE-SET,local,DIRECT
 
   - GEOIP,CN,DIRECT
   #- MATCH,DIRECT

@@ -4,9 +4,9 @@ USE_PROCD=1
 START=99
 STOP=10
 
-PROG=/app/mihomo/mihomo
 CONF_DIR=/app/mihomo
 CONF_FILE="${CONF_DIR}/config.yaml"
+PROG="${CONF_DIR}/mihomo"
 
 start_service() {
 	if [ ! -x "$PROG" ]; then
