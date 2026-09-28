@@ -471,3 +471,4 @@ payload:
   - DOMAIN,guzzoni.apple.com
   - DOMAIN,smoot.apple.com
   - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,meta.com
