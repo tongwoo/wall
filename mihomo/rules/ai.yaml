@@ -472,3 +472,4 @@ payload:
   - DOMAIN,smoot.apple.com
   - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,fbcdn.net
