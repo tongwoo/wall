@@ -122,6 +122,9 @@ payload:
   - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,golang.org
 
+  # Hugo
+  - DOMAIN-SUFFIX,gohugo.io
+
   # Rust / Cargo
   - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,rustup.rs
@@ -216,3 +219,5 @@ payload:
   - DOMAIN-SUFFIX,json-schema.org
   - DOMAIN-SUFFIX,schemastore.org
   - DOMAIN-SUFFIX,playwright.dev
+  # OTHER
+  - DOMAIN-SUFFIX,getdesign.md
